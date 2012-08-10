@@ -1,4 +1,4 @@
-# revision 23785
+# revision 26699
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-context
 Epoch:		1
-Version:	20120224
+Version:	20120810
 Release:	1
 Summary:	ConTeXt format
 Group:		Publishing
@@ -17,6 +17,7 @@ BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-context
+Requires:	texlive-collection-basic
 Requires:	texlive-jmn
 Requires:	texlive-lmextra
 Requires:	texlive-context-account
@@ -44,7 +45,6 @@ Requires:	texlive-context-simpleslides
 Requires:	texlive-context-typearea
 Requires:	texlive-context-typescripts
 Requires:	texlive-context-vim
-Requires:	texlive-collection-basic
 
 %description
 Hans Hagen's powerful ConTeXt system, http://pragma-ade.com.
