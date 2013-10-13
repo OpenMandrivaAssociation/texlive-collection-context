@@ -1,4 +1,4 @@
-# revision 26699
+# revision 30458
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,9 +6,9 @@
 # catalog-version undef
 Name:		texlive-collection-context
 Epoch:		1
-Version:	20120810
+Version:	20131013
 Release:	1
-Summary:	ConTeXt format
+Summary:	ConTeXt and packages
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
@@ -19,12 +19,12 @@ Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-context
 Requires:	texlive-collection-basic
 Requires:	texlive-jmn
-Requires:	texlive-lmextra
 Requires:	texlive-context-account
 Requires:	texlive-context-algorithmic
 Requires:	texlive-context-bnf
 Requires:	texlive-context-chromato
 Requires:	texlive-context-construction-plan
+Requires:	texlive-context-cyrillicnumbers
 Requires:	texlive-context-degrade
 Requires:	texlive-context-filter
 Requires:	texlive-context-fixme
@@ -42,6 +42,7 @@ Requires:	texlive-context-rst
 Requires:	texlive-context-ruby
 Requires:	texlive-context-simplefonts
 Requires:	texlive-context-simpleslides
+Requires:	texlive-context-transliterator
 Requires:	texlive-context-typearea
 Requires:	texlive-context-typescripts
 Requires:	texlive-context-vim
@@ -68,16 +69,3 @@ Also includes third-party ConTeXt packages.
 %build
 
 %install
-
-
-%changelog
-* Fri Aug 10 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120810-1
-+ Revision: 813901
-- Update to latest release.
-
-* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
-+ Revision: 780193
-- Update to latest release.
-- Import texlive-collection-context
-- Import texlive-collection-context
-
