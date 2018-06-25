@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-context
 Epoch:		1
-Version:	20180224
+Version:	20180327
 Release:	1
 Summary:	ConTeXt and packages
 Group:		Publishing
