@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-context
 Epoch:		1
-Version:	20180327
-Release:	2
+Version:	20190228
+Release:	1
 Summary:	ConTeXt and packages
 Group:		Publishing
 URL:		http://tug.org/texlive
