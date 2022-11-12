@@ -1,18 +1,12 @@
-# revision 30458
-# category Collection
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
 Name:		texlive-collection-context
 Epoch:		1
-Version:	20190228
+Version:	54074
 Release:	1
 Summary:	ConTeXt and packages
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-context.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-context.r54074.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -52,19 +46,19 @@ Hans Hagen's powerful ConTeXt system, http://pragma-ade.com.
 Also includes third-party ConTeXt packages.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0
+%autosetup -p1 -c
 
 %build
 
