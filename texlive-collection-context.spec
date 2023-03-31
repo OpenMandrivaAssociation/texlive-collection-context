@@ -1,7 +1,7 @@
 Name:		texlive-collection-context
 Epoch:		1
 Version:	54074
-Release:	1
+Release:	2
 Summary:	ConTeXt and packages
 Group:		Publishing
 URL:		http://tug.org/texlive
