@@ -1,6 +1,6 @@
 Name:		texlive-collection-context
 Epoch:		1
-Version:	71515
+Version:	71879
 Release:	1
 Summary:	ConTeXt and packages
 Group:		Publishing
